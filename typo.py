@@ -11,7 +11,7 @@ class Test:
     console_size: ConsoleDimensions
 
 
-test = Test((3,4))
-print(test)
-test.console_size = (4, 55)
+test = Test((3,4)) # converts the tuple to ConsoleDimensions nicely
+print(test) 
+test.console_size = (4, 55) # leaves as tuple
 print(test)
